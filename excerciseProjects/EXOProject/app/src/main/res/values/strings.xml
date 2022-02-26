@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EXO Project</string>
+    <string name="exo_app_name">EXO</string>
+    <string name="exol_hint_username">Enter user name</string>
+    <string name="exo_hint_password">Enter your password</string>
+    <string name="shr_button_next">next</string>
+    <string name="shr_button_cancel">cancle</string>
+    <string name="exo_error_password"><![CDATA["    <sPassword must contain at least 8 characters"]]></string>
+    <string name="shr_error_password">Enter your password correctly</string>
+</resources>

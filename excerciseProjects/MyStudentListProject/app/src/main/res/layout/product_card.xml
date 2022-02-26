@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.android.volley.toolbox.NetworkImageView
+
+            android:id="@+id/student_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/shr_product_card_image_height"
+            android:background="?attr/colorPrimaryDark"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/student_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/student_name"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+
+            <TextView
+                android:id="@+id/student_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/student_address"
+                android:textAppearance="?attr/textAppearanceBody2" />
+            <TextView
+                android:id="@+id/student_ph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/student_phone_number"
+                android:textAppearance="?attr/textAppearanceBody2" />
+            <TextView
+                android:id="@+id/student_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/student_date_of_birth"
+                android:textAppearance="?attr/textAppearanceBody2" />
+
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

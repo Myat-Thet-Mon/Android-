@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Student Management System (SMS)</string>
+    <string name="Student_List">Student_List</string>
+    <string name="Teacher_List">Teacher_List</string>
+</resources>

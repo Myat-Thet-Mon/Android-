@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tutorial point TimePicker</string>
+    <string name="time_pick">time_pick</string>
+    <string name="time_save">time_save</string>
+    <string name="time_current">time_current</string>
+    <string name="time_selected">time_selected</string>
+</resources>

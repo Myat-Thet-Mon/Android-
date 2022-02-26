@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="example_edittext">Example showing EditText</string>
+    <string name="show_the_text">Show the Text</string>
+    <string name="enter_text">text changes</string>
+    <string name="example_autocompletetextview">Auto complete text</string>
+    <string name="spinner_title">spinner_title</string>
+    <string name="time_current">time_current</string>
+    <string name="time_selected">time_selected</string>
+    <string name="time_save">time_save</string>
+    <string name="time_pick">time_pick</string>
+    <string name="date_button_set">date_button_set</string>
+    <string name="date_label_set">date_label_set</string>
+    <string name="date_view_set">date_view_set</string>
+    <string name="date_selected">date_selected</string>
+</resources>

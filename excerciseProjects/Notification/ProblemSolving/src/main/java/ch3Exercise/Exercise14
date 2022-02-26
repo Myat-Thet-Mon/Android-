@@ -1,0 +1,25 @@
+//package ch3Exercise;
+//
+//public class Exercise14 {
+//    public static void main(String[] args) {
+//        switch (choice.valueOf()){
+//            case ("a"):
+//                System.out.println("Your choice is " + choice);
+//                break;
+//            case ("b"):
+//                System.out.println("Your choice is " + choice);
+//                break;
+//            case ("c"):
+//                System.out.println("Your choice is " + choice);
+//                break;
+//            case ("d"):
+//                System.out.println("Your choice is " + choice);
+//                break;
+//            case ("e"):
+//                System.out.println("Your choice is " + choice);
+//                break;
+//            default:
+//                System.out.println("Error");
+//        }
+//    }
+//}

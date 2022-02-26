@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Student List</string>
+    <string name="shr_app_name">Student List</string>
+    <string name="shr_search_title">search</string>
+    <string name="shr_filter_title">filter</string>
+    <string name="shr_product_title">title</string>
+    <string name="shr_product_description">secontary text</string>
+</resources>

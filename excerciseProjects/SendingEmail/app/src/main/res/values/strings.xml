@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sending Email</string>
+    <string name="compose_email">compose_email</string>
+</resources>

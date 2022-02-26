@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hi</string>
+    <string name="edit_message">Enter a message\"</string>
+    <string name="button_send">Send</string>
+    <string name="whatapp_app_name">WhatsApp</string>
+    <string name="whatsApp_title">search</string>
+    <string name="whatsApp_filter_title">filter</string>
+    <string name="whatsApp_name">Sehun</string>
+    <string name="whatsApp_text">Hi</string>
+    <string name="whatsApp_text2">Yesterday</string>
+</resources>

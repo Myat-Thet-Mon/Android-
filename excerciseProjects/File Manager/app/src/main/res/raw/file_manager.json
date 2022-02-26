@@ -1,0 +1,93 @@
+[
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "1234566.txt",
+    "date": "23/11/2020",
+    "size": "123.4 KB",
+    "type" : "txt"
+  },
+  {
+    "name": "123456.pdf",
+    "date": "12/10/2018",
+    "size": "128.5 KB",
+    "type" : "pdf"
+  },
+  {
+    "name": "8877y654.jpg",
+    "date": "01/02/2010",
+    "size": "128.5 KB",
+    "type" : "jpg"
+  },
+  {
+    "name": "EXO.mp3",
+    "date": "11/12/2020",
+    "size": "125.8 KB",
+    "type" : "mp3"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  },
+  {
+    "name": "folder1",
+    "date": "26/02/2020",
+    "size": "1 file",
+    "type" : "folder"
+  }
+]
+

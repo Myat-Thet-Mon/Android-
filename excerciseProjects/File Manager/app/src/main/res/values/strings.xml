@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">File Manager</string>
+    <string name="search">search</string>
+    <string name="filter">filter</string>
+    <string name="download">Download</string>
+    <string name="text1">text</string>
+    <string name="text2">text2</string>
+    <string name="text3">text3</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805474562158",
+    "project_id": "gflutter-exercise1",
+    "storage_bucket": "gflutter-exercise1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805474562158:android:395255f089a2af0c30f67f",
+        "android_client_info": {
+          "package_name": "com.myatthet.gflutterexercise12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805474562158-f072gj5j5ifh0d0p6sk49bkbrg3lcqs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATrfayvmwiAc30BYz7AXFwSaT-9cNnY7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805474562158-f072gj5j5ifh0d0p6sk49bkbrg3lcqs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

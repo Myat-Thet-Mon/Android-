@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tultorial point DatePicker</string>
+    <string name="date_button_set">date_button_set</string>
+    <string name="date_label_set">date_button_set</string>
+    <string name="date_view_set">date_view_set</string>
+    <string name="date_selected">date_selected</string>
+</resources>

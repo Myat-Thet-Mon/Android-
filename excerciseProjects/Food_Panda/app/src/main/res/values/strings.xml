@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Food Panda</string>
+    <string name="edit_message">Enter a message\"</string>
+    <string name="button_send">Send</string>
+    <string name="rating">" 5/5  (2)"</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="popular">popular</string>
+    <string name="drink">drink</string>
+    <string name="popular_text">Popular</string>
+</resources>

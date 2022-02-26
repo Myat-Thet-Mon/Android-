@@ -1,0 +1,106 @@
+package ch5_SelfTest;
+
+import javax.swing.*;
+import java.awt.Graphics;
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Exercise35 extends JPanel {
+    public static final int FACE_DIAMETER = 50;
+    public static final int X_FACE0 = 10;
+    public static final int Y_FACE0 = 5;
+
+    public static final int EYE_WIDTH = 5;
+    public static final int EYE_HEIGHT = 10;
+    public static final int X_RIGHT_EYE0 = 20;
+    public static final int Y_RIGHT_EYE0 = 15;
+    public static final int X_LEFT_EYE0 = 45;
+    public static final int Y_LEFT_EYE0 =Y_RIGHT_EYE0;
+
+    public static final int NOSE_DIAMETER = 5;
+    public static final int X_NOSE0 = 32;
+    public static final int Y_NOSE0 = 25;
+
+    public static final int MOUTH_WIDTH = 30;
+    public static final int MOUTH_HEIGHT0 = 0;
+    public static final int X_MOUTH0 = 20;
+    public static final int Y_MOUTH0 = 35;
+    public static final int MOUTH_START_ANGLE = 180;
+    public static final int MOUTH_EXTENT_ANGLE = 180;
+
+    private void drawFaceSansMouth(Graphics g, int pos,Color c)
+    {
+        g.setColor(c);
+        g.drawOval(X_FACE0 + 50 * pos, Y_FACE0 + 30 * pos,
+                FACE_DIAMETER, FACE_DIAMETER);
+
+//Draw eyes:
+        g.setColor(c);
+        g.fillOval(X_RIGHT_EYE0 + 50 * pos, Y_RIGHT_EYE0 + 30 * pos,
+                EYE_WIDTH, EYE_HEIGHT);
+        g.fillOval(X_LEFT_EYE0 + 50 * pos, Y_LEFT_EYE0 + 30 * pos,
+                EYE_WIDTH, EYE_HEIGHT);
+//Draw nose:
+        g.setColor(c);
+        g.fillOval(X_NOSE0 + 50 * pos, Y_NOSE0 + 30 * pos,
+                NOSE_DIAMETER, NOSE_DIAMETER);
+    }
+    public void paint(Graphics canvas)
+    {
+        int i;
+        Color c=Color.YELLOW;
+        for (i = 0; i < 5; i++)
+        {//Draw one face:
+            if (i % 2 == 0)//If i is even,
+            { //make face yellow
+                canvas.setColor(c);
+                canvas.fillOval(X_FACE0 + 50 * i,
+                        Y_FACE0 + 30 * i,
+                        FACE_DIAMETER, FACE_DIAMETER);
+            }
+            drawFaceSansMouth(canvas, i,c);
+//Draw mouth:
+            canvas.setColor(Color.RED);
+            canvas.drawArc(X_MOUTH0 + 50 * i, Y_MOUTH0 + 30 * i,
+                    MOUTH_WIDTH, MOUTH_HEIGHT0 + 3 * i,
+                    MOUTH_START_ANGLE, MOUTH_EXTENT_ANGLE);
+        }
+//i == 5
+        //Draw kissing face:
+        drawFaceSansMouth(canvas, i,c);
+//Draw mouth in shape of a kiss:
+        canvas.setColor(Color.RED);
+        canvas.fillOval(X_MOUTH0 + 50 * i + 10, Y_MOUTH0 + 30 * i,
+                MOUTH_WIDTH - 20, MOUTH_WIDTH - 20);
+//Add text:
+        canvas.setColor(Color.BLACK);
+        canvas.drawString("Kiss, Kiss.",
+                X_FACE0 + 50 * i + FACE_DIAMETER, Y_FACE0 + 30 * i);
+//Draw blushing face:
+        i++;
+//Draw face circle:
+        canvas.setColor(Color.PINK);
+        canvas.fillOval(X_FACE0 + 50 * i, Y_FACE0 + 30 * i,
+                FACE_DIAMETER, FACE_DIAMETER);
+        drawFaceSansMouth(canvas, i,c);
+//Draw mouth:
+        canvas.setColor(Color.RED);
+        canvas.drawArc(X_MOUTH0 + 50 * i, Y_MOUTH0 + 30 * i,
+                MOUTH_WIDTH, MOUTH_HEIGHT0 + 3 * (i - 2),
+                MOUTH_START_ANGLE, MOUTH_EXTENT_ANGLE);
+//Add text:
+        canvas.setColor(Color.BLACK);
+        canvas.drawString("Tee Hee.",
+                X_FACE0 + 50 * i + FACE_DIAMETER, Y_FACE0 + 30 * i);
+    }
+    public static void main(String[] args) {
+        Exercise35 watchPanel=new Exercise35();
+        JFrame frame = new JFrame();
+        frame.setContentPane(watchPanel);
+        frame.setSize(600, 300);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}
+

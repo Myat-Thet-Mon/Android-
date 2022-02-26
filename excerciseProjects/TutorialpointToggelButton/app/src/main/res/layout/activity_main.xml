@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorials point"
+        android:textColor="#ff87ff09"
+        android:textSize="30dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/abc"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        tools:ignore="UnknownId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On"
+        android:id="@+id/toggleButton"
+        android:checked="true"
+        android:layout_below="@+id/imageButton"
+        android:layout_toEndOf="@+id/button2"/>
+
+   <ToggleButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Off"
+      android:id="@+id/toggleButton2"
+    android:checked="true"
+    android:layout_alignTop="@+id/toggleButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="ClickMe"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
