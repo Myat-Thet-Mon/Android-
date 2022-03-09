@@ -130,8 +130,8 @@ public class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.SportsView
 
 
             //Load the images into the ImageView using the Glide library
-            Glide.with(mContext).load(currentSport.
-                    getImageResource()).placeholder(mGradientDrawable).into(mSportsImage);
+//            Glide.with(mContext).load(currentSport.
+//                    getImageResource()).placeholder(mGradientDrawable).into(mSportsImage);
         }
 
         @Override

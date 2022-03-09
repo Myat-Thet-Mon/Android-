@@ -100,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             // Cancel notification if the alarm is turned off.
                             mNotificationManager.cancelAll();
-
                             if (alarmManager != null) {
                                 alarmManager.cancel(notifyPendingIntent);
                             }
