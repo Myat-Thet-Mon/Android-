@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".OrderActivity">
+
+    <TextView
+        android:id="@+id/deliWay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a delivery method"
+        android:paddingBottom="20dp"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deliWay">
+
+        <RadioButton
+            android:id="@+id/messengerService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="Same day messenger service"/>
+
+        <RadioButton
+            android:id="@+id/groundDeli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="Next day ground delivery"/>
+
+        <RadioButton
+            android:id="@+id/pickUp"
+            android:layout_width="wrap_content"
+            android:onClick="buttonClick"
+            android:layout_height="wrap_content"
+            android:text="Pick up"/>
+    </RadioGroup>
+
+</RelativeLayout>

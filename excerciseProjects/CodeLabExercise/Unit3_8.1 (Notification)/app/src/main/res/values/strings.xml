@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="notification_channel_name">Mascot Notification</string>
+    <string name="notification_channel_description">Notification from Mascot</string>
+    <string name="edit_message">Enter a message\"</string>
+    <string name="update">Update</string>
+    <string name="button_send">Send</string>
+</resources>
