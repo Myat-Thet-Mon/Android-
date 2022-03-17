@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hi</string>
+    <string name="edit_message">Enter a message\"</string>
+    <string name="button_send">Send</string>
+    <string name="job_scheduled">Job Scheduled, will run when the constraints are met</string>
+    <string name="seconds">%1$d s</string>
+</resources>

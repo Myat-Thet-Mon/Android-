@@ -1,0 +1,19 @@
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="com.myatthet.hi.GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="com.myatthet.hi.NotificationPreferenceFragment"
+        android:icon="@drawable/ic_noti"
+        android:title="@string/pref_header_notifications" />
+
+    <header
+        android:fragment="com.myatthet.hi.DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync"
+        android:title="@string/pref_header_account" />
+
+</preference-headers>
