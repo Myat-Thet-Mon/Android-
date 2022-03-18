@@ -15,16 +15,16 @@
         android:id="@+id/order_intro_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/text_margin_bottom"
         android:layout_marginTop="@dimen/text_margin_top"
+        android:layout_marginBottom="@dimen/text_margin_bottom"
         android:text="@string/choose_delivery_method"
         android:textSize="@dimen/intro_text_size" />
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@id/order_intro_text">
+        android:layout_below="@id/order_intro_text"
+        android:orientation="vertical">
 
         <RadioButton
             android:id="@+id/sameday"

@@ -1,7 +1,6 @@
 package ch6_SelfTest;
 
-public class Overload
-{
+public class OverLoad {
     public static void main(String[] args)
     {
         double average1 = Overload.getAverage(40.0, 50.0);

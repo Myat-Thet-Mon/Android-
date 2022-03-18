@@ -9,13 +9,72 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ba6e499-e2a1-4cec-8b0b-fc885c9898d3" name="Default Changelist" comment="" />
+    <list default="true" id="2ba6e499-e2a1-4cec-8b0b-fc885c9898d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Unit4_10.1/app/src/main/java/com/myatthet/hi/WordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Unit4_10.1/app/src/main/java/com/myatthet/hi/WordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Unit4_10.1/app/src/main/java/com/myatthet/hi/WordRoomDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Unit4_10.1/app/src/main/java/com/myatthet/hi/WordViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Unit4_10.1/app/src/main/res/drawable/ic_add_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Unit4_10.1/app/src/main/res/layout/activity_new_word.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Unit4_10.1/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Unit4_10.1/app/src/main/res/layout/recyclerview_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/androidTest/java/com/myatthet/hi/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/java/com/myatthet/hi/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/java/com/myatthet/hi/OrderActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/drawable-v24/donut_circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/drawable-v24/froyo_circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/drawable-v24/icecream_circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/drawable/ic_baseline_favorite_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/drawable/ic_status_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/layout/activity_order.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/layout/content_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/test/java/com/myatthet/hi/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/app/src/test/java/com/myatthet/hi/OrderActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit2_4.4 (copy)/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit3_9.2/app/src/main/java/com/myatthet/hi/SettingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit3_9.2/app/src/main/java/com/myatthet/hi/SettingsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Notification/ProblemSolving/src/main/java/ch6_SelfTest/Overload.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notification/ProblemSolving/src/main/java/ch6_SelfTest/Overload.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/myat/.android/avd/Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -60,7 +119,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="24gC3XCdPzyBNbF0mjImC7cd9Lm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -74,7 +133,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Unit2_4.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Unit2_4.1" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -143,9 +202,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

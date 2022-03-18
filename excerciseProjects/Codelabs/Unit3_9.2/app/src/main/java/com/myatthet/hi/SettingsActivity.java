@@ -58,7 +58,8 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                         // For ringtone preferences, look up the correct display value
                         // using RingtoneManager.
                         if (TextUtils.isEmpty(stringValue)) {
-                            // Empty values correspond to 'silent' (no ringtone).
+                            // E
+                            // mpty values correspond to 'silent' (no ringtone).
                             preference.setSummary(R.string.pref_ringtone_silent);
 
                         } else {
@@ -104,7 +105,8 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
      *
      * @see #sBindPreferenceSummaryToValueListener
      */
-    private static void bindPreferenceSummaryToValue(Preference preference) {
+    private static void
+    bindPreferenceSummaryToValue(Preference preference) {
         // Set the listener to watch for value changes.
         preference.setOnPreferenceChangeListener(
                 sBindPreferenceSummaryToValueListener);
@@ -153,6 +155,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
 
     @Override
     public boolean onIsMultiPane() {
+//        return true;
         return isXLargeTablet(this);
     }
 
@@ -166,6 +169,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
      * This method stops fragment injection in malicious applications.
      * Make sure to deny any unknown fragments here.
      */
+    @Override
     protected boolean isValidFragment(String fragmentName) {
         return PreferenceFragment.class.getName().equals(fragmentName)
                 || GeneralPreferenceFragment

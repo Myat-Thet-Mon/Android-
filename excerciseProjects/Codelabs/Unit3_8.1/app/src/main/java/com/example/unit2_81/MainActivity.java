@@ -21,8 +21,6 @@ import androidx.core.app.NotificationCompat;
  * update, and cancel notification.
  */
 public class MainActivity extends AppCompatActivity {
-
-
     // Constants for the notification actions buttons.
     private static final String ACTION_UPDATE_NOTIFICATION =
             "com.android.example.notifyme.ACTION_UPDATE_NOTIFICATION";
